@@ -73,9 +73,6 @@ div.card-container {
     justify-content: center !important;
 }
 
-carousel-item {
-    background-color: aqua;
-}
 
 div.snippet {
     background-color: rgba(0, 0, 0, 0.422);
@@ -92,4 +89,26 @@ div.card {
 
 p.card-text {
     font-size: 12pt !important;
+}
+
+.stack-frame {
+    height: 150px;
+    width: 200px;
+    background-color: rgb(103, 32, 161);
+    vertical-align: middle;
+    align-content: center;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img.stack-image {
+    vertical-align: middle;
+    width: 80%;
+    max-height: 90%;
 }
